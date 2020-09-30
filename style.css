@@ -1,0 +1,137 @@
+*{/* "*" représente l'ensemble des éléments de la page permet de mettre une seul valeur par défaut commune */
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background: url("background.jfif")no-repeat;
+	background-size: cover;
+	font-family: Arial
+}
+
+
+header{
+	top: 0;
+	left: 0;
+	height: 50px;
+	background-color: black;
+}
+
+
+header p {
+	margin-left: 50px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: impact;
+	color: #23B5C2;
+}
+
+
+header p a {
+	margin-left: 800px;
+	color: #23B5C2;
+}
+
+
+nav {
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 1000px;
+}
+
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+nav ul li {
+	/*il faudrais trouver un moyen pour scale le width en fonction de la taille de l'écran le pourcent fonctionne mais créé un bug pour les menus 
+		en dessous qui se superpose alors de mani7re non-souhaité et emp7che leur bon fonctionnement*/
+	float: left;
+	width: 125px;
+	height: 40px;
+	background-color: black;
+	opacity: .99;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+
+nav ul li a:hover{
+	background-color: blue;
+}
+
+
+nav ul li ul li {
+	display: none;
+}
+
+
+nav ul li:hover ul li {
+	display: block;
+}
+
+
+section article {
+	margin-left: 100px;
+	margin-top: 50px;
+	width: 900px;
+	background-color: black;
+	color: #23B5C2;
+}
+
+
+section article p {
+	color: white;
+	text-align: left;
+}
+
+
+aside {
+	position: absolute;
+	top: 0px;
+	left: 1000px;
+	background-color: black;
+	margin-top: 50px;
+	width: 272px;
+	color: #23B5C2;
+	text-align: center;
+}
+
+
+aside article {
+	border-width: 3px;
+	border-color: white;
+	border-style: solid;
+	font-weight: bold;
+}
+
+aside article p {
+	color: white;
+	text-align: left;
+	margin-left: 3px;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
